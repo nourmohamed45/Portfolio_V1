@@ -9,6 +9,7 @@ Table of Contents
 
 section.hero {
   margin-top: 3rem;
+  justify-content: space-between;
 }
 
 /* 
@@ -20,6 +21,7 @@ section.hero {
 section.hero .parent-avatar.flex {
   align-items: end;
   gap: 0.5rem;
+  min-height: 88px;
 }
 
 section.hero .left-section {
@@ -70,8 +72,20 @@ section.hero .icons .icon:hover {
   color: var(--icon-hover);
 }
 
+
 /* 
 ==================================
   2. Right Section ==> animation
 ==================================
 */
+
+.hero-animation {
+  translate: 100px 55px;
+}
+
+@media (max-width: 1200px) {
+  .hero-animation {
+    display: none;
+  }
+}
+

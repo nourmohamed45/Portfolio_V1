@@ -20,7 +20,6 @@ section.contact-us .icon-envelope {
   font-size: 1.8rem;
 }
 
-
 section.contact-us .title {
   font-size: 2.1rem;
   color: var(--title);
@@ -44,25 +43,31 @@ section.contact-us label {
   margin-right: 2rem;
 }
 
-
-
-section.contact-us #email, section.contact-us #message {
+section.contact-us #email,
+section.contact-us #message {
   all: unset;
-  background-color: rgba(63,63,70,.15);
-  border: 1px solid rgb(63,63, 70);
+  background-color: rgba(63, 63, 70, 0.15);
+  border: 1px solid rgb(63, 63, 70);
   width: 16rem;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   /* margin-left: 1rem; */
   border-radius: 5px;
-  transition: .3s;
+  transition: 0.3s;
   font-size: 1.1rem;
 }
 
-section.contact-us #email:focus, section.contact-us #message:focus {
+section.contact-us #email:focus,
+section.contact-us #message:focus,
+section.contact-us #email:hover,
+section.contact-us #message:hover {
   border: 1px solid rgb(45 212 191);
 }
-section.contact-us #email:hover, section.contact-us #message:hover {
-  border: 1px solid rgb(45 212 191);
+
+.light section.contact-us #email:focus,
+.light section.contact-us #message:focus,
+.light section.contact-us #email:hover,
+.light section.contact-us #message:hover {
+  border: 1px solid rgb(78 80 80);
 }
 
 section.contact-us #message {
@@ -81,19 +86,25 @@ section.contact-us .submit {
   border-radius: 5px;
   transition: 0.3s;
   margin-top: 1.8rem;
+  color: var(--button-color);
+  margin-bottom: 2rem;
 }
 
 section.contact-us .submit:hover {
   opacity: 1;
 }
 
-
-
 /* 
 ===============================
   3. Media Queries
 ===============================
 */
+
+@media (max-width: 880px) {
+  .contact-animation {
+    display: none;
+  }
+}
 
 @media (max-width: 768px) {
   .animation {
@@ -105,7 +116,7 @@ section.contact-us .submit:hover {
     flex-direction: column;
     width: 90%;
   }
-  
+
   section.contact-us form .flex {
     align-items: start;
     flex-direction: column;
@@ -115,12 +126,13 @@ section.contact-us .submit:hover {
     margin-bottom: 1rem;
   }
 
-  section.contact-us #email, section.contact-us #message  {
+  section.contact-us #email,
+  section.contact-us #message {
     width: 100%;
     padding: 0;
   }
 
   section.contact-us #email {
-    padding: .5rem 0;
+    padding: 0.5rem 0;
   }
 }

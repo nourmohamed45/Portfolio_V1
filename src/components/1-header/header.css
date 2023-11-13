@@ -68,6 +68,11 @@ header button.mode {
   color: var(--subtitle);
   outline: 1px solid rgba(244, 165, 96, 0.249);
   transition: 0.4s;
+  box-shadow: 1px 1px 40px rgba(35,35,36,.165);
+}
+
+.icon-sun {
+  color: orange;
 }
 
 header button.icon-menu:hover,
