@@ -1,0 +1,51 @@
+/* 
+======================
+Table of Contents
+======================
+
+1. Footer design
+2- Media queries
+
+*/
+
+/* 
+=============================
+  1. Footer design
+=============================
+*/
+
+
+footer.flex {
+  justify-content: space-between;
+}
+
+footer.flex ul {
+  gap: 1rem;
+}
+
+footer.flex ul li a {
+  color: var(--subtitle);
+  
+}
+
+footer.flex ul li a:hover {
+  color: var(--blue);
+  font-weight: 500;
+}
+
+footer.flex p {
+  color: var(--subtitle);
+}
+
+/* 
+===============================
+  2. Media Queries
+===============================
+*/
+
+@media (max-width: 767px) {
+  footer.flex {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
