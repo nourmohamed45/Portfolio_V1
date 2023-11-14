@@ -4,7 +4,7 @@ export const myProjects = [
   {
     id: uuidv4(),
     category: ["react-mui"],
-    image: "../../../public/Project-images/React-Anime-Website-V1.png",
+    image: "./Project-images/React-Anime-Website-V1.png",
     projectTitle: "React Anime Website",
     description:
       "This is anime website for searching about your favourite anime, watching trailer, knowing some details about it and checkout characters.",
@@ -14,7 +14,7 @@ export const myProjects = [
   {
     id: uuidv4(),
     category: ["html-css"],
-    image: "../../../public/Project-images/Greate-Game.png",
+    image: "./Project-images/Greate-Game.png",
     projectTitle: "Great Game",
     description:
       "For web app gamers, Great Game is a one-stop shop. Play new and vintage games, watch trailers, and read news and stories. hundreds of thousands of users can watch live gaming sessions. To suit your demands and budget, pick from a variety of plans. To remain current on the newest gaming trends, join our group.",
@@ -24,7 +24,7 @@ export const myProjects = [
   {
     id: uuidv4(),
     category: ["react-mui"],
-    image: "../../../public/Project-images/React-Todo-App.png",
+    image: "./Project-images/React-Todo-App.png",
     projectTitle: "React Todo",
     description:
       "Arabic Todo App ==> using React & Material Ui",
@@ -34,7 +34,7 @@ export const myProjects = [
   {
     id: uuidv4(),
     category: ["js"],
-    image: "../../../public/Project-images/Generation-Password.png",
+    image: "./Project-images/Generation-Password.png",
     projectTitle: "Password Generator",
     description:
       "This GitHub repository hosts a customizable Password Generator Project, designed to enhance security by generating strong and unique passwords tailored to your specific requirements.",
@@ -44,7 +44,7 @@ export const myProjects = [
   {
     id: uuidv4(),
     category: ["html-css"],
-    image: "../../../public/Project-images/Harry-Potter_(First-website).png",
+    image: "./Project-images/Harry-Potter_(First-website).png",
     projectTitle: "Harry Potter (First-website)",
     description:
       "Introducing the ultimate Harry Potter fan app - your one-stop-shop for everything related to the magical world of Harry Potter! With our app, you can easily browse and explore all of the Harry Potter brands, including movies, games, and books.",
@@ -54,7 +54,7 @@ export const myProjects = [
   {
     id: uuidv4(),
     category: ["js"],
-    image: "../../../public/Project-images/Social-media-V1.png",
+    image: "./Project-images/Social-media-V1.png",
     projectTitle: "Social Media App V1",
     description:
       "This mini social media web application, tightly integrated with a powerful backend API, offers users a dynamic platform to connect and share. Users can seamlessly perform actions such as user registration, login, and logout. Additionally, they can create, edit, and delete posts, view detailed post information, and engage with the community by adding comments or exploring comments from other users. Users can also browse and view profile details of other members. I did not prioritize design; my primary focus was on the logical aspects of the web application, which I managed using pure JavaScript.",
@@ -64,7 +64,7 @@ export const myProjects = [
   {
     id: uuidv4(),
     category: ["react-mui"],
-    image: "../../../public/Project-images/React-smiple-weather-App.png",
+    image: "./Project-images/React-smiple-weather-App.png",
     projectTitle: "Simple Weather App",
     description:
       "simple weather app with Arabic & English",
@@ -74,7 +74,7 @@ export const myProjects = [
   {
     id: uuidv4(),
     category: ["js"],
-    image: "../../../public/Project-images/Tripify-Adventure.png",
+    image: "./Project-images/Tripify-Adventure.png",
     projectTitle: "Tripify Adventure",
     description:
       "Explore the world of travel and adventure with Tripify. Our all-in-one travel companion offers personalized recommendations, real-time travel updates, interactive maps, and a user-friendly interface. Dive into travel stories, discover hidden gems, and embark on unforgettable journeys.",
@@ -84,7 +84,7 @@ export const myProjects = [
   {
     id: uuidv4(),
     category: ["js"],
-    image: "../../../public/Project-images/LLegar-Graduation-Project.png",
+    image: "./Project-images/LLegar-Graduation-Project.png",
     projectTitle: "LLEGAR (Graduation Project)",
     description:
       "At LLEGAR, our top priority is providing reliable, secure, and easy-to-use rental services, while also promoting diversity and inclusivity on our platform. We pride ourselves on offering a wide variety of rental items to meet the diverse needs and preferences of our customers.",
