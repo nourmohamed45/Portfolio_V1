@@ -1,5 +1,5 @@
 # React + Vite
 
-<a href="https://65535ab8e4bfd95336c0221a--stunning-sprinkles-c99d95.netlify.app/">Preview</a>
+<a href="https://6577049760878876490f107c--endearing-kataifi-1c24dd.netlify.app/">Preview</a>
 
 
