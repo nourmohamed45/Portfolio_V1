@@ -1,6 +1,6 @@
 # React Portfolio website: React.js, Formspree, Framer Motion, LottieFiles
 
-![Copy of Copy of Fullstack Twitter Clone (1)]('./public/Project-images/portfolioV1.png')
+[![portfolio-V1.png](https://i.postimg.cc/BbsXDtXs/portfolio-V1.png)](https://postimg.cc/G87LnLFS)
 
 
 This is a repository for a React Portfolio website: React.js, Formspree, Framer Motion, LottieFiles
